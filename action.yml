@@ -1,15 +1,5 @@
-name: 'Serverless Deploy'
-description: 'This action wraps the Serverless Framework to enable common Serverless commands.'
-# inputs:
-#   who-to-greet:  # id of input
-#     description: 'Who to greet'
-#     required: true
-#     default: 'World'
-# outputs:
-#   time: # id of output
-#     description: 'The time we greeted you'
+name: 'Serverless latest versions'
+description: 'This action wraps the Serverless Framework latest versions'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  # args:
-  #   - ${{ inputs.who-to-greet }}

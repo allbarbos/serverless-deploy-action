@@ -1,5 +1,8 @@
 name: 'Serverless latest versions'
 description: 'This action wraps the Serverless Framework latest versions'
+branding:
+  icon: 'zap'
+  color: 'red'
 runs:
   using: 'docker'
   image: 'Dockerfile'

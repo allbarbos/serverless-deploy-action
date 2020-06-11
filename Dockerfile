@@ -10,5 +10,5 @@ LABEL "com.github.actions.description"="Wraps the Serverless Framework to enable
 LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
 
-RUN npm i -g serverless@1.72.0 serverless-offline@6.3.2
+RUN npm i -g serverless@1.72.0
 ENTRYPOINT ["serverless"]
